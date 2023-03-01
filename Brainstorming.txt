@@ -1,0 +1,23 @@
+Idée: Techinique Pomodoro Application
+
+Context: 
+    - La technique Pomodoro est une technique de gestion de temps
+    - Elle consiste à associer une periode à une tache puis faire une
+pause apres chaque tache
+        Exemple: 
+            1) Faire la vaiselle - 5 min
+            Pause
+            2) Faire les devoirs - 60 min
+            Pause
+            3) Etudier les lecons - 20 min
+            Pause
+
+Application:
+    Dans l'application nous allons essayer de recréer ce concept
+en suivant la logique comme suit:
+        - Des taches associés à des periodes bien determinés par l'utilisateur
+        - La pause est elle aussi determinée par l'utilisateur
+        - L'utilisateur decide quand commencer le sprint
+        - A chaque fin de temps (time over) de chaque tache, il y a une alarme
+        - Le minuteur de la pause commence à chaque fin de tache et une alarme sonne
+à la fin du minuteur de la pause
